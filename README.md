@@ -1,31 +1,51 @@
-# React & Tailwind CSS Starter Pack
+# StudyNotion - eLearning Platform
 
-This is a starter pack for creating React projects with Tailwind CSS configured. It uses React version **18.2** and Tailwind CSS version **3.2**.
+StudyNotion is a full-stack eLearning platform where **instructors** can create and manage courses, and **students** can purchase and enroll in courses to learn online. The platform includes features like course creation, payment integration, video classes, authentication, and more.
 
-## Usage
+---
 
-This starter pack includes a basic setup for using **Tailwind CSS with React**. To start building your own components and styles, follow these steps:
+## 🛠️ Tech Stack
 
-1. Clone the repository to your local machine.
-    ```sh
-    git clone https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git
-    ```
+**Frontend:**
+- React.js
+- Tailwind CSS
+- Redux Toolkit (for state management)
+- React Router DOM
 
-1. Install the required packages.
-    ```sh
-    cd react-tailwind-css-starter-pack
-    npm install
-    ```
+**Backend:**
+- Node.js
+- Express.js
+- MongoDB (Mongoose)
 
-1. Start the development server.
-    ```sh
-    npm start
-    ```
-1. Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view your project.
-1. Create your React components and add your styles using Tailwind classes. You can also create new CSS files and import them into your components.
+**Other Tools & Libraries:**
+- JWT (Authentication)
+- Cloudinary (File & video uploads)
+- Stripe (Payment Integration)
+- Multer (File Handling)
+- dotenv (Environment Management)
+- bcrypt.js (Password Hashing)
+- Razorpay (Alternative for payments)
 
-The project is set up to use `postcss-cli` to process your CSS files. You can add your own `tailwind.config.js` file to customize your Tailwind setup.
+---
 
-## Contributing
+## 🚀 Features
 
-Contributions are welcome! If you have any suggestions or find any issues, please feel free to open an issue or a pull request.
+### Student Features:
+- Register/Login with secure authentication
+- Browse available courses
+- Purchase courses using Stripe/Razorpay
+- Watch course videos after enrollment
+- Track course progress
+- Profile management
+
+### Instructor Features:
+- Register/Login
+- Create, edit, and delete courses
+- Upload videos and materials
+- Add quizzes or descriptions
+- Track enrolled students
+
+---
+
+## 📁 Folder Structure (Brief)
+
